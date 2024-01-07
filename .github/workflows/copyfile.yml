@@ -34,7 +34,7 @@ jobs:
         with:
           source-files: 'index.html'        
           destination_repo: 'mukutbiharee/elasticsearch-cloud-aws'
-          destination_folder: 'reports/orgs/'
+          destination_folder: 'reports/orgs'
           user_email: 'mukut5ul@gmail.com'
           user_name: 'mukutbiharee'
           commit_message: 'copying report to destination'
