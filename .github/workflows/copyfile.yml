@@ -32,8 +32,9 @@ jobs:
         env:
           API_TOKEN_GITHUB: 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
         with:
-          source-files: 'index.html'        
+          source-files: '../index.html'        
           destination_repo: 'mukutbiharee/elasticsearch-cloud-aws'
+          destination_branch: 'master'
           destination_folder: 'reports/orgs'
           user_email: 'mukut5ul@gmail.com'
           user_name: 'mukutbiharee'
